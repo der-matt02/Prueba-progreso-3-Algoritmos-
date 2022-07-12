@@ -11,7 +11,7 @@ Algoritmo conteo_votos
 	Dimension n_votos[votes]
 	
 	Para i = 0 Hasta votes - 1 Con Paso 1 Hacer
-		Escribir " Ingrese los votos # 1: "
+		Escribir " Ingrese los votos #", i+1, ":"
 		Leer n_votos[i]
 	Fin Para
 	
